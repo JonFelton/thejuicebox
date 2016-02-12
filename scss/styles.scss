@@ -1,0 +1,265 @@
+@import "susy";
+@font-face {
+  font-family: 'Aleo-regular';
+  src: url('../fonts/aleo-regular-webfont.woff2') format('woff2'),
+       url('../fonts/aleo-regular-webfont.woff') format('woff'),
+       url('../fonts/aleo-regular-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aleo-bold';
+  src: url('../fonts/aleo-bold-webfont.woff2') format('woff2'),
+       url('../fonts/aleo-bold-webfont.woff') format('woff'),
+       url('../fonts/aleo-bold-webfont.ttf') format('truetype');
+}
+
+@import "normalize";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+
+
+$susy: (
+	columns: 12,
+	global-box-sizing: border-box,
+	container: 1140px
+);
+
+$jb-primary-color: #FF7700;
+$bg-color: #333;
+$bg-dark: #272727;
+$bg-light: #DDD;
+$main-text: #FFF;
+$light-gradient: linear-gradient(#FFF,#FAFAFA);
+$dark-shadow: 0 0 .3em .06em #111;
+$active-gradient: linear-gradient(#FAFAFA,#F0F0F0);
+$sect-head-light: #ffad66;
+$jb-secondary-color: #1d9bc9;
+$nav-text-color: #333;
+
+/*BEGIN STYLE SHEET*/
+
+@include border-box-sizing;
+
+/*STRUCTURE*/
+
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+
+body{
+	
+	background-color: $bg-color;
+	font-family: 'Lato', sans-serif;
+	color: $main-text;
+
+	::-moz-selection { /* Code for Firefox */
+    color: $jb-secondary-color;
+}
+
+	::selection {
+    color: $jb-secondary-color;
+}
+
+
+.wrap {
+	@include container();
+}
+
+.content {
+	@include span(12);
+}
+	
+}
+
+
+/*TYPOGRAPHY*/
+
+.title {
+		text-align: center;
+}
+
+.sect-head {
+		color: $jb-primary-color;
+		font-weight: 900;
+}
+
+.sect-head-light {
+		color: $sect-head-light;
+		font-weight: 900;
+}
+
+.emphasis {
+		color: $jb-secondary-color;
+}
+
+
+/*IMAGES*/
+
+.main-image {
+	max-width: 100%;
+}
+
+/*HEADER*/
+
+header {
+	margin-bottom: 2.5em;
+	margin-top:2.6em;
+}
+
+.head-image{
+	text-align: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+    h1 {
+    	font-weight: 900;
+    	font-size: 5em;
+    	padding: .75em 0;
+
+    }
+}
+
+.juicebox {
+	background-position: 0% 20%;
+	background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url('../img/juicebox5.jpg');
+}
+
+.hip-hop {
+	background-position: center;
+	background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url('../img/hiphop2.jpg');
+}
+
+.jazz {
+	background-position:0% 40%;
+	background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url('../img/jazz4.jpg');
+}
+
+.funk {
+	background-position: 0% 70%;
+	background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url('../img/funk4.jpg');
+}
+
+.blues {
+	background-position: center;
+	background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url('../img/blues4.jpg');
+}
+
+/*SECTIONS*/
+
+.text-dark-bg, .text {
+	@include span(12);
+	padding:1.5em span(1 of 12) 3em span(1 of 12);
+	margin-bottom: 2.5em;
+	p {
+		font-family: 'Aleo-regular', 'Lato', sans-serif;
+		line-height:1.75em;
+		
+	}
+}
+
+.text-dark-bg {
+	background-color: $bg-dark;
+}
+
+.text {
+	
+	background-color:$bg-light;
+	color: $nav-text-color;
+}
+
+
+
+/*NAVIGATION*/
+
+nav {
+	position: fixed;
+	width: 100%;
+	
+	
+	ul { 
+		text-align: center;
+		list-style-type: none;
+		background-image: $light-gradient;
+		margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+		box-shadow: $dark-shadow;
+    	
+		li {
+			float: left;
+
+			a { 
+				color: $nav-text-color;
+				text-decoration: none;
+				display: block;
+				padding: .8em 1.5em;
+				font-weight: 700;				
+				
+			}
+
+			a:hover:not(.active) {
+				color: $jb-secondary-color;
+				
+			}
+		}
+
+		li.right { 
+			float:right;
+		}
+			a.active {
+			color: $jb-primary-color;
+				background-image: $active-gradient;
+				box-shadow: 0 0 .3em #888;
+
+
+		}
+	}
+}
+
+footer {
+	background-color: #FAFAFA;
+
+	ul { 
+		text-align: center;
+		list-style-type: none;
+		margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	
+		li {
+			display: inline;
+
+			a { 
+				color: $nav-text-color;
+				text-decoration: none;
+				display: inline-block;
+				padding: .8em 1.5em;
+								
+				
+			}
+
+			a:hover {
+				color: $jb-secondary-color;
+			}
+		}
+	}
+	
+}
