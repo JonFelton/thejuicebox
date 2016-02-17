@@ -383,6 +383,7 @@ th {
 
 body {
   width: 100%;
+  text-align: center;
   background-color: #333;
   font-family: 'Lato', sans-serif;
   color: #FFF; }
@@ -451,10 +452,8 @@ header {
 
 /*SECTIONS*/
 .text-dark-bg, .text {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
+  max-width: 100%;
+  text-align: left;
   padding: 1.5em 6.77966% 3em 6.77966%;
   margin-bottom: 2.5em; }
   .text-dark-bg p, .text p {
