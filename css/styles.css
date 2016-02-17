@@ -400,6 +400,9 @@ body {
   max-width: 1140px;
   margin: 0 auto; }
 
+.block {
+  display: block; }
+
 /*TYPOGRAPHY*/
 .title {
   text-align: center; }
