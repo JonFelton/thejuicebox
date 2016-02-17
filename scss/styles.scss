@@ -67,22 +67,22 @@ body{
 
 	::-moz-selection { /* Code for Firefox */
     color: $jb-secondary-color;
-}
+	}
 
 	::selection {
     color: $jb-secondary-color;
+	}
+
 }
 
 
 .wrap {
-	@include container();
+	max-width: container();
+	margin: 0 auto;
 }
 
-.content {
-	@include span(12);
-}
 	
-}
+
 
 
 /*TYPOGRAPHY*/

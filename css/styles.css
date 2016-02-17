@@ -390,19 +390,10 @@ body {
     color: #1d9bc9; }
   body ::selection {
     color: #1d9bc9; }
-  body .wrap {
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto; }
-    body .wrap:after {
-      content: " ";
-      display: block;
-      clear: both; }
-  body .content {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0; }
+
+.wrap {
+  max-width: 1140px;
+  margin: 0 auto; }
 
 /*TYPOGRAPHY*/
 .title {
