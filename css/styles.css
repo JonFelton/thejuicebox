@@ -386,10 +386,15 @@ nav {
 .Site-content {
   flex: 1 0 auto; }
 
-.text-content {
-  width: 100%;
-  max-width: 1068px;
-  margin: 0 auto; }
+.article-content {
+  display: block;
+  max-width: 83.05085%;
+  float: left; }
+
+.aside-content {
+  margin-left: 1.69492%;
+  width: 15.25424%;
+  float: left; }
 
 body {
   background-color: #333;
@@ -464,6 +469,7 @@ header {
 
 /*SECTIONS*/
 .text-dark-bg, .text {
+  overflow: auto;
   max-width: 100%;
   text-align: left;
   padding: 3em 6.77966% 4em 6.77966%;

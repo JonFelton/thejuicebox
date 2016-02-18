@@ -21,7 +21,8 @@
 $susy: (
 	columns: 12,
 	global-box-sizing: border-box,
-	container: 1680px
+	container: 1680px,
+	gutters: 1/4
 );
 
 $jb-primary-color: #FF7700;
@@ -63,12 +64,19 @@ flex-shrink: 0;
   flex: 1 0 auto;
 }
 
-.text-content {
-	width:100%;
-	max-width: 1068px;
-	margin: 0 auto;
+.article-content {
+	display:block;
+	max-width: span(10);
+	float: left;
 }
 
+
+.aside-content {
+	margin-left: gutter();
+	width: span(2);
+	float: left;
+
+}
 
 body{
 	
@@ -184,6 +192,7 @@ header {
 /*SECTIONS*/
 
 .text-dark-bg, .text {
+	overflow: auto;
 	max-width: span(12);
 	text-align: left;
 	padding: 3em span(1 of 12) 4em span(1 of 12);
