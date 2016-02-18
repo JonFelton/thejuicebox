@@ -192,13 +192,14 @@ header {
 
 .text-dark-bg, .text {
 	overflow: auto;
-	max-width: span(12);
+	max-width: 100%;
 	text-align: left;
 	padding: 3em span(1 of 12) 4em span(1 of 12);
 	margin: 0 1em 2.5em 1em;
 	p {
 		font-family: 'Aleo-regular', 'Lato', sans-serif;
 		line-height:1.75em;
+		max-width: 100%;
 
 		
 	}

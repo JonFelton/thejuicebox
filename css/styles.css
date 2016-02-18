@@ -475,7 +475,8 @@ header {
   margin: 0 1em 2.5em 1em; }
   .text-dark-bg p, .text p {
     font-family: 'Aleo-regular', 'Lato', sans-serif;
-    line-height: 1.75em; }
+    line-height: 1.75em;
+    max-width: 100%; }
 
 .text-dark-bg {
   background-color: #272727; }
