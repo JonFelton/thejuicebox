@@ -384,12 +384,12 @@ th {
   flex: 1 0 auto; }
 
 .article-content {
-  max-width: 83.05085%;
+  max-width: 74.28571%;
   float: left; }
 
 .aside-content {
-  margin-left: 1.69492%;
-  width: 15.25424%;
+  margin-left: 2.85714%;
+  width: 22.85714%;
   float: left; }
 
 body {
@@ -468,7 +468,7 @@ header {
   overflow: auto;
   max-width: 100%;
   text-align: left;
-  padding: 3em 6.77966% 4em 6.77966%;
+  padding: 3em 5.71429% 4em 5.71429%;
   margin: 0 1em 2.5em 1em; }
   .text-dark-bg p, .text p {
     font-family: 'Aleo-regular', 'Lato', sans-serif;

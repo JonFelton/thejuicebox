@@ -22,7 +22,7 @@ $susy: (
 	columns: 12,
 	global-box-sizing: border-box,
 	container: 1200px,
-	gutters: 1/4
+	gutters: 1/2
 );
 
 $jb-primary-color: #FF7700;
@@ -61,14 +61,14 @@ flex-shrink: 0;
 }
 
 .article-content {
-	max-width: span(10);
+	max-width: span(9);
 	float: left;
 }
 
 
 .aside-content {
 	margin-left: gutter();
-	width: span(2);
+	width: span(3);
 	float: left;
 
 }
