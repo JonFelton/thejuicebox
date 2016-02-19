@@ -370,9 +370,6 @@ th {
   box-sizing: border-box; }
 
 /*STRUCTURE*/
-nav {
-  width: 100%; }
-
 .Site {
   width: 100%;
   display: flex;
@@ -407,7 +404,7 @@ body {
 
 .wrap {
   width: 100%;
-  max-width: 1680px;
+  max-width: 1200px;
   margin: 0 auto; }
 
 .block {
@@ -488,15 +485,16 @@ header {
 /*NAVIGATION*/
 nav {
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  background-image: linear-gradient(#FFF, #FAFAFA); }
   nav ul {
+    max-width: 1200px;
     text-align: center;
     list-style-type: none;
     background-image: linear-gradient(#FFF, #FAFAFA);
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    box-shadow: 0 0 0.3em 0.06em #111; }
+    margin: 0 auto;
+    padding: 0 1em;
+    overflow: hidden; }
     nav ul li {
       float: left; }
       nav ul li a {
@@ -512,7 +510,7 @@ nav {
     nav ul a.active {
       color: #FF7700;
       background-image: linear-gradient(#FAFAFA, #F0F0F0);
-      box-shadow: 0 0 .3em #888; }
+      box-shadow: 0 0 .5em #888; }
 
 footer {
   background-color: #FAFAFA; }

@@ -21,7 +21,7 @@
 $susy: (
 	columns: 12,
 	global-box-sizing: border-box,
-	container: 1680px,
+	container: 1200px,
 	gutters: 1/4
 );
 
@@ -43,12 +43,8 @@ $nav-text-color: #333;
 
 /*STRUCTURE*/
 
-nav {
-
-	width: 100%;
-}
 .Site {
-	width: 100%; 
+  width: 100%; 
   display: flex;
   text-align: center;
   height: 100vh;
@@ -222,16 +218,17 @@ header {
 nav {
 	position: fixed;
 	width: 100%;
+	background-image: $light-gradient;
 	
 	
 	ul { 
+		max-width: container();
 		text-align: center;
 		list-style-type: none;
 		background-image: $light-gradient;
-		margin: 0;
-    	padding: 0;
+		margin: 0 auto;
+    	padding: 0 1em;
     	overflow: hidden;
-		box-shadow: $dark-shadow;
     	
 		li {
 			float: left;
@@ -257,7 +254,7 @@ nav {
 			a.active {
 			color: $jb-primary-color;
 				background-image: $active-gradient;
-				box-shadow: 0 0 .3em #888;
+				box-shadow: 0 0 .5em #888;
 
 
 		}
