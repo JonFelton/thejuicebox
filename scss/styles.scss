@@ -16,8 +16,6 @@
 @import "normalize";
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 
-
-
 $susy: (
 	columns: 12,
 	global-box-sizing: border-box,
@@ -44,7 +42,7 @@ $nav-text-color: #333;
 /*STRUCTURE*/
 
 .Site {
-  width: 100%; 
+  width: 100%;
   display: flex;
   text-align: center;
   height: 100vh;
@@ -65,16 +63,13 @@ flex-shrink: 0;
 	float: left;
 }
 
-
 .aside-content {
 	margin-left: gutter();
 	width: span(3);
 	float: left;
-
 }
 
 body{
-	
 	background-color: $bg-color;
 	font-family: 'Lato', sans-serif;
 	color: $main-text;
@@ -96,7 +91,7 @@ body{
 	margin: 0 auto;
 }
 
-	
+
 .block {
 	display: block;
 }
@@ -152,35 +147,35 @@ header {
 .juicebox {
 	background-position: 0% 20%;
 	background-image:
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url('../img/juicebox5.jpg');
 }
 
 .hip-hop {
 	background-position: center;
 	background-image:
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url('../img/hiphop2.jpg');
 }
 
 .jazz {
 	background-position:0% 40%;
 	background-image:
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url('../img/jazz4.jpg');
 }
 
 .funk {
 	background-position: 0% 70%;
 	background-image:
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url('../img/funk4.jpg');
 }
 
 .blues {
 	background-position: center;
 	background-image:
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url('../img/blues4.jpg');
 }
 
@@ -197,7 +192,7 @@ header {
 		line-height:1.75em;
 		max-width: 100%;
 
-		
+
 	}
 }
 
@@ -206,7 +201,7 @@ header {
 }
 
 .text {
-	
+
 	background-color:$bg-light;
 	color: $nav-text-color;
 }
@@ -219,9 +214,9 @@ nav {
 	position: fixed;
 	width: 100%;
 	background-image: $light-gradient;
-	
-	
-	ul { 
+
+
+	ul {
 		max-width: container();
 		text-align: center;
 		list-style-type: none;
@@ -229,26 +224,26 @@ nav {
 		margin: 0 auto;
     	padding: 0 1em;
     	overflow: hidden;
-    	
+
 		li {
 			float: left;
 
-			a { 
+			a {
 				color: $nav-text-color;
 				text-decoration: none;
 				display: block;
 				padding: .8em 1.5em;
-				font-weight: 700;				
-				
+				font-weight: 700;
+
 			}
 
 			a:hover:not(.active) {
 				color: $jb-secondary-color;
-				
+
 			}
 		}
 
-		li.right { 
+		li.right {
 			float:right;
 		}
 			a.active {
@@ -264,23 +259,23 @@ nav {
 footer {
 	background-color: #FAFAFA;
 
-	ul { 
+	ul {
 		text-align: center;
 		list-style-type: none;
 		margin: 0;
     	padding: 0;
     	overflow: hidden;
-    	
+
 		li {
 			display: inline;
 
-			a { 
+			a {
 				color: $nav-text-color;
 				text-decoration: none;
 				display: inline-block;
 				padding: .8em 1.5em;
-								
-				
+
+
 			}
 
 			a:hover {
@@ -288,5 +283,5 @@ footer {
 			}
 		}
 	}
-	
+
 }
