@@ -1,38 +1,7 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
-@font-face {
-  font-family: 'Aleo-regular';
-  src: url("../fonts/aleo-regular-webfont.woff2") format("woff2"), url("../fonts/aleo-regular-webfont.woff") format("woff"), url("../fonts/aleo-regular-webfont.ttf") format("truetype"); }
-@font-face {
-  font-family: 'Aleo-bold';
-  src: url("../fonts/aleo-bold-webfont.woff2") format("woff2"), url("../fonts/aleo-bold-webfont.woff") format("woff"), url("../fonts/aleo-bold-webfont.ttf") format("truetype"); }
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
-html {
-  font-family: sans-serif;
-  /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
-
-/**
- * Remove default margin.
- */
-body {
-  margin: 0; }
-
-/* HTML5 display definitions
-   ========================================================================== */
-/**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
- */
+/* line 9, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
 article,
 aside,
 details,
@@ -42,492 +11,513 @@ footer,
 header,
 hgroup,
 main,
-menu,
 nav,
 section,
 summary {
-  display: block; }
+  display: block;
+}
 
-/**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
+/* line 29, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
 audio,
 canvas,
 progress,
 video {
   display: inline-block;
-  /* 1 */
   vertical-align: baseline;
-  /* 2 */ }
+}
 
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
+/* line 40, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
-/**
- * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
- */
+/* line 47, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
 [hidden],
 template {
-  display: none; }
+  display: none;
+}
 
-/* Links
-   ========================================================================== */
-/**
- * Remove the gray background color from active links in IE 10.
- */
+/*! normalize.css v3.0.0 | Base | MIT License | git.io/normalize */
+/* line 11, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 19, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+body {
+  margin: 0;
+}
+
+/*! normalize.css v3.0.0 | Links | MIT License | git.io/normalize */
+/* line 9, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
 a {
-  background-color: transparent; }
+  background: transparent;
+}
 
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
+/* line 15, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
 a:active,
 a:hover {
-  outline: 0; }
+  outline: 0;
+}
 
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
- */
+/*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */
+/* line 9, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 abbr[title] {
-  border-bottom: 1px dotted; }
+  border-bottom: 1px dotted;
+}
 
-/**
- * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
- */
+/* line 15, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 b,
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
-/**
- * Address styling not present in Safari and Chrome.
- */
+/* line 22, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
+/* line 29, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
-/**
- * Address styling not present in IE 8/9.
- */
+/* line 36, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 mark {
   background: #ff0;
-  color: #000; }
+  color: #000;
+}
 
-/**
- * Address inconsistent and variable font size in all browsers.
- */
+/* line 43, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
+/* line 49, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
+/* line 57, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
+/* line 61, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
-/* Embedded content
-   ========================================================================== */
-/**
- * Remove border when inside `a` element in IE 8/9/10.
- */
+/*! normalize.css v3.0.0 | Embedded Content | MIT License | git.io/normalize */
+/* line 9, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
 img {
-  border: 0; }
+  border: 0;
+}
 
-/**
- * Correct overflow not hidden in IE 9/10/11.
- */
+/* line 15, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
-/* Grouping content
-   ========================================================================== */
-/**
- * Address margin not present in IE 8/9 and Safari.
- */
+/*! normalize.css v3.0.0 | Figures | MIT License | git.io/normalize */
+/* line 9, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
 figure {
-  margin: 1em 40px; }
+  margin: 1em 40px;
+}
 
-/**
- * Address differences between Firefox and other browsers.
- */
+/* line 15, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0; }
+  height: 0;
+}
 
-/**
- * Contain overflow in all browsers.
- */
+/* line 23, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
 pre {
-  overflow: auto; }
+  overflow: auto;
+}
 
-/**
- * Address odd `em`-unit font size rendering in all browsers.
- */
+/* line 29, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
-/* Forms
-   ========================================================================== */
-/**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
-/**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
- */
+/*! normalize.css v3.0.0 | Forms | MIT License | git.io/normalize */
+/* line 15, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button,
 input,
 optgroup,
 select,
 textarea {
   color: inherit;
-  /* 1 */
   font: inherit;
-  /* 2 */
   margin: 0;
-  /* 3 */ }
+}
 
-/**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
- */
+/* line 27, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button {
-  overflow: visible; }
+  overflow: visible;
+}
 
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
- * Correct `select` style inheritance in Firefox.
- */
+/* line 36, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button,
 select {
-  text-transform: none; }
+  text-transform: none;
+}
 
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
+/* line 47, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
-  /* 2 */
   cursor: pointer;
-  /* 3 */ }
+}
 
-/**
- * Re-set default cursor for disabled elements.
- */
+/* line 57, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button[disabled],
 html input[disabled] {
-  cursor: default; }
+  cursor: default;
+}
 
-/**
- * Remove inner padding and border in Firefox 4+.
- */
+/* line 64, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0; }
+  padding: 0;
+}
 
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
+/* line 73, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 input {
-  line-height: normal; }
+  line-height: normal;
+}
 
-/**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
+/* line 83, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
-  /* 1 */
   padding: 0;
-  /* 2 */ }
+}
 
-/**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
+/* line 93, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+  height: auto;
+}
 
-/**
- * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
- *    (include `-moz` to future-proof).
- */
+/* line 102, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
-  /* 1 */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
-  /* 2 */
-  box-sizing: content-box; }
+  box-sizing: content-box;
+}
 
-/**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
+/* line 113, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+}
 
-/**
- * Define consistent border, margin, and padding.
- */
+/* line 120, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.625em 0.75em;
+}
 
-/**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
+/* line 129, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 legend {
   border: 0;
-  /* 1 */
   padding: 0;
-  /* 2 */ }
+}
 
-/**
- * Remove default vertical scrollbar in IE 8/9/10/11.
- */
+/* line 136, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
-/**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
+/* line 143, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 optgroup {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
-/* Tables
-   ========================================================================== */
-/**
- * Remove most spacing between table cells.
- */
+/*! normalize.css v3.0.0 | Tables | MIT License | git.io/normalize */
+/* line 9, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
+/* line 14, ../../../../.gem/ruby/2.1.3/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
 td,
 th {
-  padding: 0; }
+  padding: 0;
+}
 
+@font-face {
+  font-family: 'Aleo-regular';
+  src: url("../fonts/aleo-regular-webfont.woff2") format("woff2"), url("../fonts/aleo-regular-webfont.woff") format("woff"), url("../fonts/aleo-regular-webfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Aleo-bold';
+  src: url("../fonts/aleo-bold-webfont.woff2") format("woff2"), url("../fonts/aleo-bold-webfont.woff") format("woff"), url("../fonts/aleo-bold-webfont.ttf") format("truetype");
+}
 /*BEGIN STYLE SHEET*/
+/* line 21, ../../../../.gem/ruby/2.1.3/gems/susy-2.2.10/sass/susy/language/susy/_box-sizing.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /*STRUCTURE*/
+/* line 46, ../scss/styles.scss */
 .Site {
   width: 100%;
   display: flex;
   text-align: center;
   height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
+/* line 54, ../scss/styles.scss */
 .site-header, .site-footer {
-  flex-shrink: 0; }
+  flex-shrink: 0;
+}
 
+/* line 59, ../scss/styles.scss */
 .Site-content {
-  flex: 1 0 auto; }
+  flex: 1 0 auto;
+}
 
+/* line 63, ../scss/styles.scss */
 .article-content {
   max-width: 74.28571%;
-  float: left; }
+  float: left;
+}
 
+/* line 68, ../scss/styles.scss */
 .aside-content {
   margin-left: 2.85714%;
   width: 22.85714%;
-  float: left; }
+  float: left;
+}
 
+/* line 74, ../scss/styles.scss */
 body {
   background-color: #333;
   font-family: 'Lato', sans-serif;
-  color: #FFF; }
-  body ::-moz-selection {
-    /* Code for Firefox */
-    color: #1d9bc9; }
-  body ::selection {
-    color: #1d9bc9; }
+  color: #FFF;
+}
+/* line 79, ../scss/styles.scss */
+body ::-moz-selection {
+  /* Code for Firefox */
+  color: #1d9bc9;
+}
+/* line 83, ../scss/styles.scss */
+body ::selection {
+  color: #1d9bc9;
+}
 
+/* line 90, ../scss/styles.scss */
 .wrap {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
+/* line 97, ../scss/styles.scss */
 .block {
-  display: block; }
+  display: block;
+}
 
 /*TYPOGRAPHY*/
+/* line 104, ../scss/styles.scss */
 .title {
-  text-align: center; }
+  text-align: center;
+}
 
+/* line 108, ../scss/styles.scss */
 .sect-head {
   color: #FF7700;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
+/* line 113, ../scss/styles.scss */
 .sect-head-light {
   color: #ffad66;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
+/* line 118, ../scss/styles.scss */
 .emphasis {
-  color: #1d9bc9; }
+  color: #1d9bc9;
+}
 
 /*IMAGES*/
+/* line 125, ../scss/styles.scss */
 .main-image {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 /*HEADER*/
+/* line 131, ../scss/styles.scss */
 header {
   margin-bottom: 2.5em;
-  margin-top: 2.6em; }
+  margin-top: 2.6em;
+}
 
+/* line 136, ../scss/styles.scss */
 .head-image {
   text-align: center;
   background-size: 100% auto;
-  background-repeat: no-repeat; }
-  .head-image h1 {
-    font-weight: 900;
-    font-size: 5em;
-    padding: .75em 0; }
+  background-repeat: no-repeat;
+}
+/* line 141, ../scss/styles.scss */
+.head-image h1 {
+  font-weight: 900;
+  font-size: 5em;
+  padding: .75em 0;
+}
 
+/* line 149, ../scss/styles.scss */
 .juicebox {
   background-position: 0% 20%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/juicebox5.jpg"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/juicebox5.jpg");
+}
 
+/* line 156, ../scss/styles.scss */
 .hip-hop {
   background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hiphop2.jpg"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hiphop2.jpg");
+}
 
+/* line 163, ../scss/styles.scss */
 .jazz {
   background-position: 0% 40%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/jazz4.jpg"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/jazz4.jpg");
+}
 
+/* line 170, ../scss/styles.scss */
 .funk {
   background-position: 0% 70%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/funk4.jpg"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/funk4.jpg");
+}
 
+/* line 177, ../scss/styles.scss */
 .blues {
   background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/blues4.jpg"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/blues4.jpg");
+}
 
 /*SECTIONS*/
+/* line 186, ../scss/styles.scss */
 .text-dark-bg, .text {
   overflow: auto;
   max-width: 100%;
   text-align: left;
   padding: 3em 5.71429% 4em 5.71429%;
-  margin: 0 1em 2.5em 1em; }
-  .text-dark-bg p, .text p {
-    font-family: 'Aleo-regular', 'Lato', sans-serif;
-    line-height: 1.75em;
-    max-width: 100%; }
+  margin: 0 1em 2.5em 1em;
+}
+/* line 192, ../scss/styles.scss */
+.text-dark-bg p, .text p {
+  font-family: 'Aleo-regular', 'Lato', sans-serif;
+  line-height: 1.75em;
+  max-width: 100%;
+}
 
+/* line 201, ../scss/styles.scss */
 .text-dark-bg {
-  background-color: #272727; }
+  background-color: #272727;
+}
 
+/* line 205, ../scss/styles.scss */
 .text {
   background-color: #DDD;
-  color: #333; }
+  color: #333;
+}
 
 /*NAVIGATION*/
+/* line 215, ../scss/styles.scss */
 nav {
   position: fixed;
   width: 100%;
-  background-image: linear-gradient(#FFF, #FAFAFA); }
-  nav ul {
-    max-width: 1200px;
-    text-align: center;
-    list-style-type: none;
-    background-image: linear-gradient(#FFF, #FAFAFA);
-    margin: 0 auto;
-    padding: 0 1em;
-    overflow: hidden; }
-    nav ul li {
-      float: left; }
-      nav ul li a {
-        color: #333;
-        text-decoration: none;
-        display: block;
-        padding: .8em 1.5em;
-        font-weight: 700; }
-      nav ul li a:hover:not(.active) {
-        color: #1d9bc9; }
-    nav ul li.right {
-      float: right; }
-    nav ul a.active {
-      color: #FF7700;
-      background-image: linear-gradient(#FAFAFA, #F0F0F0);
-      box-shadow: 0 0 .5em #888; }
+  background-image: linear-gradient(#FFF, #FAFAFA);
+}
+/* line 221, ../scss/styles.scss */
+nav ul {
+  max-width: 1200px;
+  text-align: center;
+  list-style-type: none;
+  background-image: linear-gradient(#FFF, #FAFAFA);
+  margin: 0 auto;
+  padding: 0 1em;
+  overflow: hidden;
+}
+/* line 230, ../scss/styles.scss */
+nav ul li {
+  float: left;
+}
+/* line 233, ../scss/styles.scss */
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: .8em 1.5em;
+  font-weight: 700;
+}
+/* line 242, ../scss/styles.scss */
+nav ul li a:hover:not(.active) {
+  color: #1d9bc9;
+}
+/* line 248, ../scss/styles.scss */
+nav ul li.right {
+  float: right;
+}
+/* line 251, ../scss/styles.scss */
+nav ul a.active {
+  color: #FF7700;
+  background-image: linear-gradient(#FAFAFA, #F0F0F0);
+  box-shadow: 0 0 .5em #888;
+}
 
+/* line 261, ../scss/styles.scss */
 footer {
-  background-color: #FAFAFA; }
-  footer ul {
-    text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; }
-    footer ul li {
-      display: inline; }
-      footer ul li a {
-        color: #333;
-        text-decoration: none;
-        display: inline-block;
-        padding: .8em 1.5em; }
-      footer ul li a:hover {
-        color: #1d9bc9; }
-
-/*# sourceMappingURL=styles.css.map */
+  background-color: #FAFAFA;
+}
+/* line 264, ../scss/styles.scss */
+footer ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 271, ../scss/styles.scss */
+footer ul li {
+  display: inline;
+}
+/* line 274, ../scss/styles.scss */
+footer ul li a {
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  padding: .8em 1.5em;
+}
+/* line 283, ../scss/styles.scss */
+footer ul li a:hover {
+  color: #1d9bc9;
+}
