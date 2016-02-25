@@ -594,4 +594,15 @@ footer ul li a:hover {
   nav ul li a:hover:not(.active) {
     background-color: #292929;
   }
+
+  /* line 354, ../scss/styles.scss */
+  .head-image h1 {
+    font-size: 3em;
+  }
+
+  /* line 359, ../scss/styles.scss */
+  .text-dark-bg, .text {
+    padding: 3em 3em 4em 3em;
+    margin: 0 1em 2.5em 1em;
+  }
 }
