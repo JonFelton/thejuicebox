@@ -427,8 +427,8 @@ header {
 /* line 122, ../scss/styles.scss */
 .head-image {
   text-align: center;
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 /* line 126, ../scss/styles.scss */
 .head-image h1 {
@@ -446,7 +446,7 @@ header {
 
 /* line 136, ../scss/styles.scss */
 .juicebox {
-  background-position: 0 20%;
+  background-position: 50% 20%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/juicebox5.jpg");
 }
 
@@ -458,13 +458,13 @@ header {
 
 /* line 144, ../scss/styles.scss */
 .jazz {
-  background-position: 0 40%;
+  background-position: 50% 40%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/jazz4.jpg");
 }
 
 /* line 148, ../scss/styles.scss */
 .funk {
-  background-position: 0 70%;
+  background-position: 50% 70%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/funk4.jpg");
 }
 

@@ -121,8 +121,8 @@ header {
 }
 .head-image {
   text-align: center;
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-size: cover;
   h1 {
     font-size: 3em;
     font-weight: 900;
@@ -134,7 +134,7 @@ header {
   }
 }
 .juicebox {
-  background-position: 0 20%;
+  background-position: 50% 20%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/juicebox5.jpg');
 }
 .hip-hop {
@@ -142,11 +142,11 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/hiphop2.jpg');
 }
 .jazz {
-  background-position: 0 40%;
+  background-position: 50% 40%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/jazz4.jpg');
 }
 .funk {
-  background-position: 0 70%;
+  background-position: 50% 70%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/funk4.jpg');
 }
 .blues {
