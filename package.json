@@ -1,0 +1,28 @@
+{
+  "name": "juicebox",
+  "version": "1.0.0",
+  "description": "Juicebox Website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonFelton/thejuicebox.git"
+  },
+  "author": "Jonathan Felton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonFelton/thejuicebox/issues"
+  },
+  "homepage": "https://github.com/JonFelton/thejuicebox#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.0"
+  }
+}
