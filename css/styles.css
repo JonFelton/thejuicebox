@@ -375,30 +375,35 @@ header {
 
 .juicebox {
   background-position: 50% 20%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/juicebox5.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../build/juicebox5.jpg");
 }
 
 .hip-hop {
   background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hiphop2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../build/hiphop2.jpg");
 }
 
 .jazz {
   background-position: 50% 40%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/jazz4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../build/jazz4.jpg");
 }
 
 .funk {
   background-position: 50% 70%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/funk4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../build/funk4.jpg");
 }
 
 .blues {
   background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/blues4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../build/blues4.jpg");
 }
 
 /*NAVIGATION*/
+a {
+  text-decoration: none;
+  color: #FF7700;
+}
+
 .menu-btn {
   margin: 0.8em 1.5em;
   text-decoration: none;
