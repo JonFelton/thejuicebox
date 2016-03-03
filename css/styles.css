@@ -280,6 +280,10 @@ th {
   padding: 2.5em 0;
 }
 
+.full-width {
+  width: 100%;
+}
+
 .dark-content h1,
 .dark-content h2,
 .dark-content h3,
@@ -296,6 +300,20 @@ th {
   width: 82.85714%;
   margin: 0 auto;
   line-height: 1.75em;
+}
+
+.music-area {
+  width: 82.85714%;
+  margin: 0 auto;
+}
+.music-area h1,
+.music-area h2,
+.music-area h3,
+.music-area h4,
+.music-area h5,
+.music-area h6 {
+  width: 100%;
+  font-weight: 700;
 }
 
 html {
@@ -329,6 +347,10 @@ body ::selection {
 }
 
 /*TYPOGRAPHY*/
+.song-title {
+  font-size: 1.3em;
+}
+
 .title {
   text-align: center;
 }
